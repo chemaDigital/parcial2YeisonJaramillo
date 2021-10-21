@@ -1,0 +1,15 @@
+<div class="col mb-4" *ngFor="let Lmessi of Messi">
+    <div class="card h-100">
+        <div class="centrar">
+            <img class="card-img-top img-fluid" [src]="Lmessi.img" [alt]=" Lmessi.nombre">
+        </div>
+    </div>
+    <div class="texto">
+        <h3>{{Lmessi.nombre}}</h3>
+        <p class="card-text">{{Lmessi.bio }}</p>
+        <p class="card-text"><small class="text-muted">{{Lmessi.nacimiento}}</small></p>
+        <div class="botn">
+            <a class="btn btn-dark" [routerLink]="[ '/home']" routerLinkActive="active">home</a>
+        </div>
+    </div>
+</div>

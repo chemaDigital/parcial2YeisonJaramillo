@@ -1,0 +1,52 @@
+/*encabezado*/
+.header{
+    display: flex;
+    width: 100%;
+    background-color: rgba(51, 107, 51, 0.863);
+    justify-content: space-around;
+    color: whitesmoke;
+    height: 10%px;
+    position: sticky;
+}
+
+/*pie de pagina*/
+.footer{
+    position: static;
+    box-shadow: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(51, 107, 51, 0.863);
+    color: white;
+    text-align: center;
+}
+.parrafo{
+    margin: 0;
+}
+
+/*cuerpo*/
+.centrar{
+    width: 23%;
+    height: 10%;
+    margin: auto;
+}
+.card{
+    border: none;
+}
+.btn{
+    display: inline;
+    margin: 8%;
+    justify-content:right;
+}
+.titulo{
+    text-align: center;
+}
+.center{
+    padding: 13%;
+}
+.texto{
+    width: 100%;
+}
+.botn{
+    text-align: right;
+}
